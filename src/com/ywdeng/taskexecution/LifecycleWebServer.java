@@ -16,7 +16,6 @@ import java.util.logging.*;
 /**
  * 管理Executor的生命周期
  * @author ywdeng
- *
  */
 public class LifecycleWebServer {
     private final ExecutorService exec = Executors.newCachedThreadPool();
